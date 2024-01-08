@@ -1,0 +1,421 @@
+Script started on Thu Oct 12 19:35:48 2023
+[1m[7m%[27m[1m[0m                                                                                                ]7;file://anishas-MacBook-Pro.local/Users/anishaapte/code/p1[0m[27m[24m[Janishaapte@anishas-MacBook-Pro p1 % [K[?2004h[7mgit status[27m[10D[27mg[27mi[27mt[27m [27ms[27mt[27ma[27mt[27mu[27ms[?2004l
+On branch backend
+Your branch is up to date with 'origin/backend'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   log[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m.DS_Store[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+[1m[7m%[27m[1m[0m                                                                                                ]7;file://anishas-MacBook-Pro.local/Users/anishaapte/code/p1[0m[27m[24m[Janishaapte@anishas-MacBook-Pro p1 % [K[?2004h[7mgit log -1[27m[10D[27mg[27mi[27mt[27m [27ml[27mo[27mg[27m [27m-[27m1[?2004l
+[?1h=[33mcommit b29492573d595fa7bbb75b8d28e751d5acd080db[m[33m ([m[1;36mHEAD -> [m[1;32mbackend[m[33m, [m[1;31morigin/backend[m[33m)[m[m
+Author: Anisha Apte <aaapte@wisc.edu>[m
+Date:   Thu Oct 12 19:34:41 2023 -0500[m
+[m
+    added javadoc[m
+[K[?1l>[1m[7m%[27m[1m[0m                                                                                                ]7;file://anishas-MacBook-Pro.local/Users/anishaapte/code/p1[0m[27m[24m[Janishaapte@anishas-MacBook-Pro p1 % [K[?2004h[7mmake clean[27m[10D[27mm[27ma[27mk[27me[27m [27mc[27ml[27me[27ma[27mn[?2004l
+rm *.class
+[1m[7m%[27m[1m[0m                                                                                                ]7;file://anishas-MacBook-Pro.local/Users/anishaapte/code/p1[0m[27m[24m[Janishaapte@anishas-MacBook-Pro p1 % [K[?2004hlls[?2004l
+BackendDeveloperTests.java			KeyListInterface.java
+BackendInterface.java				Makefile
+Car.java					SortedCollectionInterface.java
+CarImplementation.java				data
+DummyBackendImplementation.java			log
+IterableMultiKeySortedCollectionInterface.java
+[1m[7m%[27m[1m[0m                                                                                                ]7;file://anishas-MacBook-Pro.local/Users/anishaapte/code/p1[0m[27m[24m[Janishaapte@anishas-MacBook-Pro p1 % [K[?2004h[7mmake runTests[27m[13D[27mm[27ma[27mk[27me[27m [27mr[27mu[27mn[27mT[27me[27ms[27mt[27msBTestsDTests[1C[1C[1C[1C[1C[?2004l
+javac Car.java
+javac BackendInterface.java
+javac CarImplementation.java
+javac DummyBackendImplementation.java
+javac -cp .:../junit5.jar BackendDeveloperTests.java
+java -jar ../junit5.jar -cp . -c BackendDeveloperTests
+
+Thanks for using JUnit! Support its development at https://junit.org/sponsoring
+
+[36m╷[0m
+[36m├─[0m [36mJUnit Jupiter[0m [32m✔[0m
+[36m│  └─[0m [36mBackendDeveloperTests[0m [32m✔[0m
+[36m│     ├─[0m [34mtestGetCarsWithMinMileage()[0m [32m✔[0m
+[36m│     ├─[0m [34mtestGetCarsAtOrAboveThreshold()[0m [32m✔[0m
+[36m│     ├─[0m [34mtestLoadNoFile()[0m [32m✔[0m
+[36m│     ├─[0m [34mtestLoadIncompleteData()[0m [32m✔[0m
+[36m│     └─[0m [34mtestLoadBadDataType()[0m [32m✔[0m
+[36m├─[0m [36mJUnit Vintage[0m [32m✔[0m
+[36m└─[0m [36mJUnit Platform Suite[0m [32m✔[0m
+
+Test run finished after 103 ms
+[         4 containers found      ]
+[         0 containers skipped    ]
+[         4 containers started    ]
+[         0 containers aborted    ]
+[         4 containers successful ]
+[         0 containers failed     ]
+[         5 tests found           ]
+[         0 tests skipped         ]
+[         5 tests started         ]
+[         0 tests aborted         ]
+[         5 tests successful      ]
+[         0 tests failed          ]
+
+[1m[7m%[27m[1m[0m                                                                                                ]7;file://anishas-MacBook-Pro.local/Users/anishaapte/code/p1[0m[27m[24m[Janishaapte@anishas-MacBook-Pro p1 % [K[?2004heexit[?2004l
+
+Script done on Thu Oct 12 19:36:45 2023
+=======
+Script started on 2023-10-17 03:19:53+00:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="163" LINES="141"]
+[?2004h]0;shigeorgew@my-cs400-vm: ~/Week06/p1[01;32mshigeorgew@my-cs400-vm[00m:[01;34m~/Week06/p1[00m$ git log
+[?2004l[?1h=[33mcommit b675f61cab34b98f2815d56afbc2cbc68376f336[m[33m ([m[1;36mHEAD -> [m[1;32mfrontend[m[33m)[m[m
+Author: George Shi <gwshi@wisc.edu>[m
+Date:   Tue Oct 17 03:18:19 2023 +0000[m
+[m
+    Fixed some tests and added the implementation CarOrganizerFrontend[m
+[m
+[33mcommit 27c03fa4525d69be519f1d96000d35cafc99cee8[m[33m ([m[1;31morigin/frontend[m[33m)[m[m
+Author: George Shi <gwshi@wisc.edu>[m
+Date:   Thu Oct 12 17:54:06 2023 +0000[m
+[m
+    Added the required Interface and the 5 JUnit tests.[m
+[m
+[33mcommit 93a870c3f021847afa07711ad7601665c6e81502[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmain[m[33m)[m[m
+Author: Florian Heimerl <heimerl@cs.wisc.edu>[m
+Date:   Sun Oct 1 23:29:03 2023 -0500[m
+[m
+    adding starter files for car organizer[m
+[K[?1l>[?2004h]0;shigeorgew@my-cs400-vm: ~/Week06/p1[01;32mshigeorgew@my-cs400-vm[00m:[01;34m~/Week06/p1[00m$ git
+[?2004lusage: git [--version] [--help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           [--super-prefix=<path>] [--config-env=<name>=<envvar>]
+           <command> [<args>]
+
+These are common Git commands used in various situations:
+
+start a working area (see also: git help tutorial)
+   clone     Clone a repository into a new directory
+   init      Create an empty Git repository or reinitialize an existing one
+
+work on the current change (see also: git help everyday)
+   add       Add file contents to the index
+   mv        Move or rename a file, a directory, or a symlink
+   restore   Restore working tree files
+   rm        Remove files from the working tree and from the index
+
+examine the history and state (see also: git help revisions)
+   bisect    Use binary search to find the commit that introduced a bug
+   diff      Show changes between commits, commit and working tree, etc
+   grep      Print lines matching a pattern
+   log       Show commit logs
+   show      Show various types of objects
+   status    Show the working tree status
+
+grow, mark and tweak your common history
+   branch    List, create, or delete branches
+   commit    Record changes to the repository
+   merge     Join two or more development histories together
+   rebase    Reapply commits on top of another base tip
+   reset     Reset current HEAD to the specified state
+   switch    Switch branches
+   tag       Create, list, delete or verify a tag object signed with GPG
+
+collaborate (see also: git help workflows)
+   fetch     Download objects and refs from another repository
+   pull      Fetch from and integrate with another repository or a local branch
+   push      Update remote refs along with associated objects
+
+'git help -a' and 'git help -g' list available subcommands and some
+concept guides. See 'git help <command>' or 'git help <concept>'
+to read about a specific subcommand or concept.
+See 'git help git' for an overview of the system.
+[?2004h]0;shigeorgew@my-cs400-vm: ~/Week06/p1[01;32mshigeorgew@my-cs400-vm[00m:[01;34m~/Week06/p1[00m$ ls
+[?2004lBackendInterface.java    CarOrganizerFrontend.java    IterableMultiKeySortedCollectionInterface.java  Makefile~                       cars.csv
+BackendPlaceholder.java  FrontendDeveloperTests.java  KeyListInterface.java                           SortedCollectionInterface.java  log
+Car.java                 FrontendInterface.java       Makefile                                        TextUITester.java
+[?2004h]0;shigeorgew@my-cs400-vm: ~/Week06/p1[01;32mshigeorgew@my-cs400-vm[00m:[01;34m~/Week06/p1[00m$ emacs log
+[?2004l[?1049h[22;0;0t[?12;25h[?1h=[H[2J[141d[K[?1l>[?12l[?25h[?1049l[23;0;0t[39;49m[?1049h[22;0;0t[?12;25h[?1h=[>0c]11;?\[>4;1m[?2004h[?1004h[H[2J[140d[?25l[30m[48;5;250m-UUU:---  F1  [39;49m[1m[30m[48;5;250m*scratch*   [0m[39;49m[30m[48;5;250m   All   L1     (Lisp Interaction ElDoc) ------------------------------------------------------------------------------------------------[39;49m
+[A[2d[?12l[?25h[?12;25h[141d[?25lFor information about GNU Emacs and the GNU system, type [38;5;152m[48;5;236mC-h C-a[39;49m.[K[H[7mFile Edit Options Buffers Tools Help                                                                                                                               [0m[39;49m[27m
+[A
+Script started on 2023-10-17 03:19:53+00:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="163" LINES="141"][K
+[36m^[[39;49m[?2004h[36m^[[39;49m]0;shigeorgew@my-cs400-vm: ~/Week06/p1[36m^G^[[39;49m[01;32mshigeorgew@my-cs400-vm[36m^[[39;49m[00m:[36m^[[39;49m[01;34m~/Week06/p1[36m^[[39;49m[00m$ git log[36m^M[39;49m[K
+[36m^[[39;49m[?2004l[36m^M^[[39;49m[?1h[36m^[[39;49m=[36m^M^[[39;49m[33mcommit b675f61cab34b98f2815d56afbc2cbc68376f336[36m^[[39;49m[m[36m^[[39;49m[33m ([36m^[[39;49m[m[36m^[[39;49m[1;36mHEAD -> [36m^[[39;49m[m[36m^[[39;49m[1;32mfrontend[36m^[[39;49m[m[36m^[[39;49m[33m)[36m^[[39;49m[m[36m^[[39;49m[m[36m^M[39;49m[K
+Author: George Shi <gwshi@wisc.edu>[36m^[[39;49m[m[36m^M[39;49m[K
+Date:   Tue Oct 17 03:18:19 2023 +0000[36m^[[39;49m[m[36m^M[39;49m[K
+[36m^[[39;49m[m[36m^M[39;49m[K
+    Fixed some tests and added the implementation CarOrganizerFrontend[36m^[[39;49m[m[36m^M[39;49m[K
+[36m^[[39;49m[m[36m^M[39;49m[K
+[36m^[[39;49m[33mcommit 27c03fa4525d69be519f1d96000d35cafc99cee8[36m^[[39;49m[m[36m^[[39;49m[33m ([36m^[[39;49m[m[36m^[[39;49m[1;31morigin/frontend[36m^[[39;49m[m[36m^[[39;49m[33m)[36m^[[39;49m[m[36m^[[39;49m[m[36m^M[39;49m[K
+Author: George Shi <gwshi@wisc.edu>[36m^[[39;49m[m[36m^M[39;49m[K
+Date:   Thu Oct 12 17:54:06 2023 +0000[36m^[[39;49m[m[36m^M[39;49m[K
+[36m^[[39;49m[m[36m^M[39;49m[K
+    Added the required Interface and the 5 JUnit tests.[36m^[[39;49m[m[36m^M[39;49m[K
+[36m^[[39;49m[m[36m^M[39;49m[K
+[36m^[[39;49m[33mcommit 93a870c3f021847afa07711ad7601665c6e81502[36m^[[39;49m[m[36m^[[39;49m[33m ([36m^[[39;49m[m[36m^[[39;49m[1;31morigin/main[36m^[[39;49m[m[36m^[[39;49m[33m, [36m^[[39;49m[m[36m^[[39;49m[1;31morigin/HEAD[36m^[[39;49m[m[36m^[[39;49m[33m, [36m^[[39;49m[m[36m^[[39;49m[1;32mmain[36m^[[39;49m[m[36m^[[39;49m[33m)\
+[A
+[36m^[[39;49m[m[36m^[[39;49m[m[36m^M[39;49m[K
+Author: Florian Heimerl <heimerl@cs.wisc.edu>[36m^[[39;49m[m[36m^M[39;49m[K
+Date:   Sun Oct 1 23:29:03 2023 -0500[36m^[[39;49m[m[36m^M[39;49m[K
+[36m^[[39;49m[m[36m^M[39;49m[K
+    adding starter files for car organizer[36m^[[39;49m[m[36m^M[39;49m[K
+[36m^M^[[39;49m[K[36m^[[39;49m[?1l[36m^[[39;49m>[36m^[[39;49m[?2004h[36m^[[39;49m]0;shigeorgew@my-cs400-vm: ~/Week06/p1[36m^G^[[39;49m[01;32mshigeorgew@my-cs400-vm[36m^[[39;49m[00m:[36m^[[39;49m[01;34m~/Week06/p1[36m^[[39;49m[00m$ git[36m^M[39;49m[K
+[36m^[[39;49m[?2004l[36m^M[39;49musage: git [--version] [--help] [-C <path>] [-c <name>=<value>][36m^M[39;49m[K
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path][36m^M[39;49m[K
+           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare][36m^M[39;49m[K
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>][36m^M[39;49m[K
+           [--super-prefix=<path>] [--config-env=<name>=<envvar>][36m^M[39;49m[K
+           <command> [<args>][36m^M[39;49m[K
+[36m^M[39;49m[K
+These are common Git commands used in various situations:[36m^M[39;49m[K
+[36m^M[39;49m[K
+start a working area (see also: git help tutorial)[36m^M[39;49m[K
+   clone     Clone a repository into a new directory[36m^M[39;49m[K
+   init      Create an empty Git repository or reinitialize an existing one[36m^M[39;49m[K
+[36m^M[39;49m[K
+work on the current change (see also: git help everyday)[36m^M[39;49m[K
+   add       Add file contents to the index[36m^M[39;49m[K
+   mv        Move or rename a file, a directory, or a symlink[36m^M[39;49m[K
+   restore   Restore working tree files[36m^M[39;49m[K
+   rm        Remove files from the working tree and from the index[36m^M[39;49m[K
+[36m^M[39;49m[K
+examine the history and state (see also: git help revisions)[36m^M[39;49m[K
+   bisect    Use binary search to find the commit that introduced a bug[36m^M[39;49m[K
+   diff      Show changes between commits, commit and working tree, etc[36m^M[39;49m[K
+   grep      Print lines matching a pattern[36m^M[39;49m[K
+   log       Show commit logs[36m^M[39;49m[K
+   show      Show various types of objects[36m^M[39;49m[K
+   status    Show the working tree status[36m^M[39;49m[K
+[36m^M[39;49m[K
+grow, mark and tweak your common history[36m^M[39;49m[K
+   branch    List, create, or delete branches[36m^M[39;49m[K
+   commit    Record changes to the repository[36m^M[39;49m[K
+   merge     Join two or more development histories together[36m^M[39;49m[K
+   rebase    Reapply commits on top of another base tip[36m^M[39;49m[K
+   reset     Reset current HEAD to the specified state[36m^M[39;49m[K
+   switch    Switch branches[36m^M[39;49m[K
+   tag       Create, list, delete or verify a tag object signed with GPG[36m^M[39;49m[K
+[36m^M[39;49m[K
+collaborate (see also: git help workflows)[36m^M[39;49m[K
+   fetch     Download objects and refs from another repository[36m^M[39;49m[K
+   pull      Fetch from and integrate with another repository or a local branch[36m^M[39;49m[K
+   push      Update remote refs along with associated objects[36m^M[39;49m[K
+[36m^M[39;49m[K
+'git help -a' and 'git help -g' list available subcommands and some[36m^M[39;49m[K
+concept guides. See 'git help <command>' or 'git help <concept>'[36m^M[39;49m[K
+to read about a specific subcommand or concept.[36m^M[39;49m[K
+See 'git help git' for an overview of the system.[36m^M[39;49m[K
+[36m^[[39;49m[?2004h[36m^[[39;49m]0;shigeorgew@my-cs400-vm: ~/Week06/p1[36m^G^[[39;49m[01;32mshigeorgew@my-cs400-vm[36m^[[39;49m[00m:[36m^[[39;49m[01;34m~/Week06/p1[36m^[[39;49m[00m$ ls[36m^M[39;49m[K
+[36m^[[39;49m[?2004l[36m^M[39;49mBackendInterface.java    CarOrganizerFrontend.java    IterableMultiKeySortedCollectionInterface.java  Makefile~                       cars.csv[36m^M[39;49m[K
+BackendPlaceholder.java  FrontendDeveloperTests.java  KeyListInterface.java                           SortedCollectionInterface.java  log[36m^M[39;49m[K
+Car.java                 FrontendInterface.java       Makefile                                        TextUITester.java[36m^M[39;49m[K
+[36m^[[39;49m[?2004h[36m^[[39;49m]0;shigeorgew@my-cs400-vm: ~/Week06/p1[36m^G^[[39;49m[01;32mshigeorgew@my-cs400-vm[36m^[[39;49m[00m:[36m^[[39;49m[01;34m~/Week06/p1[36m^[[39;49m[00m$ emacs log[36m^M[39;49m[K
+[36m^[[39;49m[?2004l[36m^M^[[39;49m[?1049h[36m^[[39;49m[22;0;0t[36m^[[39;49m[?12[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[30m[48;5;250m-UU-:---  F1  [39;49m[1m[30m[48;5;250mlog         [0m[39;49m[30m[48;5;250m   All   L1     (Fundamental) -----------------------------------------------------------------------------------------------------------[39;49m
+[A[2d[?12l[?25h[?12;25h[141d[K[2d[141d[?25lC-x[H
+[?12l[?25h[?12;25h[141;4H[?25l-[H
+[?12l[?25h[?12;25h[141;4H[?25l C-c[H
+[?12l[?25h[?12;25h[141d[K[?1004l[?2004l[>4m[?1l>[?12l[?25h[?1049l[23;0;0t[39;49m[?2004h]0;shigeorgew@my-cs400-vm: ~/Week06/p1[01;32mshigeorgew@my-cs400-vm[00m:[01;34m~/Week06/p1[00m$ emacs log
+[?2004l[?1049h[22;0;0t[?12;25h[?1h=[H[2J[141d[K[?1l>[?12l[?25h[?1049l[23;0;0t[39;49m[?1049h[22;0;0t[?12;25h[?1h=[>0c]11;?\[>4;1m[?2004h[?1004h[H[2J[140d[?25l[30m[48;5;250m-UUU:---  F1  [39;49m[1m[30m[48;5;250m*scratch*   [0m[39;49m[30m[48;5;250m   All   L1     (Lisp Interaction ElDoc) ------------------------------------------------------------------------------------------------[39;49m
+[A[2d[?12l[?25h[?12;25h[141d[?25lFor information about GNU Emacs and the GNU system, type [38;5;152m[48;5;236mC-h C-a[39;49m.[K[H[7mFile Edit Options Buffers Tools Help                                                                                                                               [0m[39;49m[27m
+[A
+Script started on 2023-10-17 03:19:53+00:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="163" LINES="141"][K
+[36m^[[39;49m[?2004h[36m^[[39;49m]0;shigeorgew@my-cs400-vm: ~/Week06/p1[36m^G^[[39;49m[01;32mshigeorgew@my-cs400-vm[36m^[[39;49m[00m:[36m^[[39;49m[01;34m~/Week06/p1[36m^[[39;49m[00m$ git log[36m^M[39;49m[K
+[36m^[[39;49m[?2004l[36m^M^[[39;49m[?1h[36m^[[39;49m=[36m^M^[[39;49m[33mcommit b675f61cab34b98f2815d56afbc2cbc68376f336[36m^[[39;49m[m[36m^[[39;49m[33m ([36m^[[39;49m[m[36m^[[39;49m[1;36mHEAD -> [36m^[[39;49m[m[36m^[[39;49m[1;32mfrontend[36m^[[39;49m[m[36m^[[39;49m[33m)[36m^[[39;49m[m[36m^[[39;49m[m[36m^M[39;49m[K
+Author: George Shi <gwshi@wisc.edu>[36m^[[39;49m[m[36m^M[39;49m[K
+Date:   Tue Oct 17 03:18:19 2023 +0000[36m^[[39;49m[m[36m^M[39;49m[K
+[36m^[[39;49m[m[36m^M[39;49m[K
+    Fixed some tests and added the implementation CarOrganizerFrontend[36m^[[39;49m[m[36m^M[39;49m[K
+[36m^[[39;49m[m[36m^M[39;49m[K
+[36m^[[39;49m[33mcommit 27c03fa4525d69be519f1d96000d35cafc99cee8[36m^[[39;49m[m[36m^[[39;49m[33m ([36m^[[39;49m[m[36m^[[39;49m[1;31morigin/frontend[36m^[[39;49m[m[36m^[[39;49m[33m)[36m^[[39;49m[m[36m^[[39;49m[m[36m^M[39;49m[K
+Author: George Shi <gwshi@wisc.edu>[36m^[[39;49m[m[36m^M[39;49m[K
+Date:   Thu Oct 12 17:54:06 2023 +0000[36m^[[39;49m[m[36m^M[39;49m[K
+[36m^[[39;49m[m[36m^M[39;49m[K
+    Added the required Interface and the 5 JUnit tests.[36m^[[39;49m[m[36m^M[39;49m[K
+[36m^[[39;49m[m[36m^M[39;49m[K
+[36m^[[39;49m[33mcommit 93a870c3f021847afa07711ad7601665c6e81502[36m^[[39;49m[m[36m^[[39;49m[33m ([36m^[[39;49m[m[36m^[[39;49m[1;31morigin/main[36m^[[39;49m[m[36m^[[39;49m[33m, [36m^[[39;49m[m[36m^[[39;49m[1;31morigin/HEAD[36m^[[39;49m[m[36m^[[39;49m[33m, [36m^[[39;49m[m[36m^[[39;49m[1;32mmain[36m^[[39;49m[m[36m^[[39;49m[33m)\
+[A
+[36m^[[39;49m[m[36m^[[39;49m[m[36m^M[39;49m[K
+Author: Florian Heimerl <heimerl@cs.wisc.edu>[36m^[[39;49m[m[36m^M[39;49m[K
+Date:   Sun Oct 1 23:29:03 2023 -0500[36m^[[39;49m[m[36m^M[39;49m[K
+[36m^[[39;49m[m[36m^M[39;49m[K
+    adding starter files for car organizer[36m^[[39;49m[m[36m^M[39;49m[K
+[36m^M^[[39;49m[K[36m^[[39;49m[?1l[36m^[[39;49m>[36m^[[39;49m[?2004h[36m^[[39;49m]0;shigeorgew@my-cs400-vm: ~/Week06/p1[36m^G^[[39;49m[01;32mshigeorgew@my-cs400-vm[36m^[[39;49m[00m:[36m^[[39;49m[01;34m~/Week06/p1[36m^[[39;49m[00m$ git[36m^M[39;49m[K
+[36m^[[39;49m[?2004l[36m^M[39;49musage: git [--version] [--help] [-C <path>] [-c <name>=<value>][36m^M[39;49m[K
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path][36m^M[39;49m[K
+           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare][36m^M[39;49m[K
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>][36m^M[39;49m[K
+           [--super-prefix=<path>] [--config-env=<name>=<envvar>][36m^M[39;49m[K
+           <command> [<args>][36m^M[39;49m[K
+[36m^M[39;49m[K
+These are common Git commands used in various situations:[36m^M[39;49m[K
+[36m^M[39;49m[K
+start a working area (see also: git help tutorial)[36m^M[39;49m[K
+   clone     Clone a repository into a new directory[36m^M[39;49m[K
+   init      Create an empty Git repository or reinitialize an existing one[36m^M[39;49m[K
+[36m^M[39;49m[K
+work on the current change (see also: git help everyday)[36m^M[39;49m[K
+   add       Add file contents to the index[36m^M[39;49m[K
+   mv        Move or rename a file, a directory, or a symlink[36m^M[39;49m[K
+   restore   Restore working tree files[36m^M[39;49m[K
+   rm        Remove files from the working tree and from the index[36m^M[39;49m[K
+[36m^M[39;49m[K
+examine the history and state (see also: git help revisions)[36m^M[39;49m[K
+   bisect    Use binary search to find the commit that introduced a bug[36m^M[39;49m[K
+   diff      Show changes between commits, commit and working tree, etc[36m^M[39;49m[K
+   grep      Print lines matching a pattern[36m^M[39;49m[K
+   log       Show commit logs[36m^M[39;49m[K
+   show      Show various types of objects[36m^M[39;49m[K
+   status    Show the working tree status[36m^M[39;49m[K
+[36m^M[39;49m[K
+grow, mark and tweak your common history[36m^M[39;49m[K
+   branch    List, create, or delete branches[36m^M[39;49m[K
+   commit    Record changes to the repository[36m^M[39;49m[K
+   merge     Join two or more development histories together[36m^M[39;49m[K
+   rebase    Reapply commits on top of another base tip[36m^M[39;49m[K
+   reset     Reset current HEAD to the specified state[36m^M[39;49m[K
+   switch    Switch branches[36m^M[39;49m[K
+   tag       Create, list, delete or verify a tag object signed with GPG[36m^M[39;49m[K
+[36m^M[39;49m[K
+collaborate (see also: git help workflows)[36m^M[39;49m[K
+   fetch     Download objects and refs from another repository[36m^M[39;49m[K
+   pull      Fetch from and integrate with another repository or a local branch[36m^M[39;49m[K
+   push      Update remote refs along with associated objects[36m^M[39;49m[K
+[36m^M[39;49m[K
+'git help -a' and 'git help -g' list available subcommands and some[36m^M[39;49m[K
+concept guides. See 'git help <command>' or 'git help <concept>'[36m^M[39;49m[K
+to read about a specific subcommand or concept.[36m^M[39;49m[K
+See 'git help git' for an overview of the system.[36m^M[39;49m[K
+[36m^[[39;49m[?2004h[36m^[[39;49m]0;shigeorgew@my-cs400-vm: ~/Week06/p1[36m^G^[[39;49m[01;32mshigeorgew@my-cs400-vm[36m^[[39;49m[00m:[36m^[[39;49m[01;34m~/Week06/p1[36m^[[39;49m[00m$ ls[36m^M[39;49m[K
+[36m^[[39;49m[?2004l[36m^M[39;49mBackendInterface.java    CarOrganizerFrontend.java    IterableMultiKeySortedCollectionInterface.java  Makefile~                       cars.csv[36m^M[39;49m[K
+BackendPlaceholder.java  FrontendDeveloperTests.java  KeyListInterface.java                           SortedCollectionInterface.java  log[36m^M[39;49m[K
+Car.java                 FrontendInterface.java       Makefile                                        TextUITester.java[36m^M[39;49m[K
+[36m^[[39;49m[?2004h[36m^[[39;49m]0;shigeorgew@my-cs400-vm: ~/Week06/p1[36m^G^[[39;49m[01;32mshigeorgew@my-cs400-vm[36m^[[39;49m[00m:[36m^[[39;49m[01;34m~/Week06/p1[36m^[[39;49m[00m$ emacs log[36m^M[39;49m[K
+[36m^[[39;49m[?2004l[36m^M^[[39;49m[?1049h[36m^[[39;49m[22;0;0t[36m^[[39;49m[?12;25h[36m^[[39;49m[?1h[36m^[[39;49m=[36m^[[39;49m[H[36m^[[39;49m[2J[36m^[[39;49m[141d[36m^[[39;49m[K[36m^[[39;49m[?1l[36m^[[39;49m>[36m^[[39;49m[?12l[36m^[[39;49m[?25h[36m^[[39;49m[?1049l[36m^[[39;49m[23;0;0t[36m^[[39;49m[39;49m[36m^M^[[39;49m[?1049h[36m^[[39;49m[22;0;0t[36m^[[39;49m[?12;25h[36m^[[39;49m[?1h[36m^[[39;49m=[36m^[[39;49m\
+[A
+[>0c[36m^[[39;49m]11;?[36m^[[39;49m\[36m^[[39;49m[>4;1m[36m^[[39;49m[?2004h[36m^[[39;49m[?1004h[36m^[[39;49m[H[36m^[[39;49m[2J[36m^[[39;49m[140d[36m^[[39;49m[?25l[36m^[[39;49m[30m[36m^[[39;49m[48;5;250m-UUU:---  F1  [36m^[[39;49m[39;49m[36m^[[39;49m[1m[36m^[[39;49m[30m[36m^[[39;49m[48;5;250m*scratch*   [36m^[[39;49m[0m[36m^[[39;49m[39;49m[36m^[[39;49m[30m[36m^[[39;49m[\
+[A
+48;5;250m   All   L1     (Lisp Interaction ElDoc) ------------------------------------------------------------------------------------------------[36m^[[39;49m[39;49m[36m^M[39;49m[K
+[36m^[[39;49m[A[36m^[[39;49m[2d[36m^[[39;49m[?12l[36m^[[39;49m[?25h[36m^[[39;49m[?12;25h[36m^[[39;49m[141d[36m^[[39;49m[?25lFor information about GNU Emacs and the GNU system, type [36m^[[39;49m[38;5;152m[36m^[[39;49m[48;5;236mC-h C-a[36m^[[39;49m[39;49m.[36m^[[39;49m[K[36m^[[39;49m[H[36m^[[39;49m[7mFile\
+[A
+ Edit Options Buffers Tools Help                                                                                                                               [36m^[[39;49m[\
+[A
+0m[36m^[[39;49m[39;49m[36m^[[39;49m[27m[36m^M[39;49m[K
+[36m^[[39;49m[A[K
+Script started on 2023-10-17 03:19:53+00:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="163" LINES="141"][36m^[[39;49m[K[36m^M[39;49m[K
+[36m^[[39;49m[36m^[[36m^[[39;49m[39;49m[?2004h[36m^[[39;49m[36m^[[36m^[[39;49m[39;49m]0;shigeorgew@my-cs400-vm: ~/Week06/p1[36m^[[39;49m[36m^G^[[36m^[[39;49m[39;49m[01;32mshigeorgew@my-cs400-vm[36m^[[39;49m[36m^[[36m^[[39;49m[39;49m[00m:[36m^[[39;49m[36m^[[36m^[[39;49m[39\
+[A
+;49m[01;34m~/Week06/p1[36m^[[39;49m[36m^[[36m^[[39;49m[39;49m[00m$ git log[36m^[[39;49m[36m^M[36m^[[39;49m[39;49m[36m^[[39;49m[K[36m^M[39;49m[K
+[36m^[[39;49m[36m^[[36m^[[39;49m[39;49m[?2004l[36m^[[39;49m[36m^M^[[36m^[[39;49m[39;49m[?1h[36m^[[39;49m[36m^[[36m^[[39;49m[39;49m=[36m^[[39;49m[36m^M^[[36m^[[39;49m[39;49m[33mcommit b675f61cab34b98f2815d56afbc2cbc68376f336[36m^[[39;49m[36m^[[36m^[[39;49m[39;49m[m[36m^[[39;49m[36m^[\
+[A
+[36m^[[39;49m[39;49m[33m ([36m^[[39;49m[36m^[[36m^[[39;49m[39;49m[m[36m^[[39;49m[36m^[[36m^[[39;49m[39;49m[1;36mHEAD -> [36m^[[39;49m[36m^[[36m^[[39;49m[39;49m[m[36m^[[39;49m[36m^[[36m^[[39;49m[39;49m[1;32mfrontend[36m^[[39;49m[36m^[[36m^[[39;49m[39;49m[m[36m^[[39;49m[36m^[[36m^[[39;49m[39;49m[33m)[36m^[[39;49m[36m\
+[A
+^[[36m^[[39;49m[39;49m[m[36m^[[39;49m[36m^[[36m^[[39;49m[39;49m[m[36m^[[39;49m[36m^M[36m^[[39;49m[39;49m[36m^[[39;49m[K[36m^M[39;49m[K
+Author: George Shi <gwshi@wisc.edu>[36m^[[39;49m[36m^[[36m^[[39;49m[39;49m[m[36m^[[39;49m[36m^M[36m^[[39;49m[39;49m[36m^[[39;49m[K[36m^M[39;49m[K
+Date:   Tue Oct 17 03:18:19 2023 +0000[36m^[[39;49m[36m^[[36m^[[39;49m[39;49m[m[36m^[[39;49m[36m^M[36m^[[39;49m[39;49m[36m^[[39;49m[K[36m^M[39;49m[K
+[36m^[[39;49m[36m^[[36m^[[39;49m[39;49m[m[36m^[[39;49m[36m^M[36m^[[39;49m[39;49m[36m^[[39;49m[K[36m^M[39;49m[K
+    Fixed some tests and added the implementation CarOrganizerFrontend[36m^[[39;49m[36m^[[36m^[[39;49m[39;49m[m[36m^[[39;49m[36m^M[36m^[[39;49m[39;49m[36m^[[39;49m[K[36m^M[39;49m[K
+[36m^[[39;49m[36m^[[36m^[[39;49m[39;49m[m[36m^[[39;49m[36m^M[36m^[[39;49m[39;49m[36m^[[39;49m[K[36m^M[39;49m[K
+[36m^[[39;49m[36m^[[36m^[[39;49m[39;49m[33mcommit 27c03fa4525d69be519f1d96000d35cafc99cee8[36m^[[39;49m[36m^[[36m^[[39;49m[39;49m[m[36m^[[39;49m[36m^[[36m^[[39;49m[39;49m[33m ([36m^[[39;49m[36m^[[36m^[[39;49m[39;49m[m[36m^[[39;49m[36m^[[36m^[[39;49m[39;49m[1;31morigin/fro\
+[A
+ntend[36m^[[39;49m[36m^[[36m^[[39;49m[39;49m[m[36m^[[39;49m[36m^[[36m^[[39;49m[39;49m[33m)[36m^[[39;49m[36m^[[36m^[[39;49m[39;49m[m[36m^[[39;49m[36m^[[36m^[[39;49m[39;49m[m[36m^[[39;49m[36m^M[36m^[[39;49m[39;49m[36m^[[39;49m[K[36m^M[39;49m[K
+Author: George Shi <gwshi@wisc.edu>[36m^[[39;49m[36m^[[36m^[[39;49m[39;49m[m[36m^[[39;49m[36m^M[36m^[[39;49m[39;49m[36m^[[39;49m[K[36m^M[39;49m[K
+Date:   Thu Oct 12 17:54:06 2023 +0000[36m^[[39;49m[36m^[[36m^[[39;49m[39;49m[m[36m^[[39;49m[36m^M[36m^[[39;49m[39;49m[36m^[[39;49m[K[36m^M[39;49m[K
+[36m^[[39;49m[36m^[[36m^[[39;49m[39;49m[m[36m^[[39;49m[36m^M[36m^[[39;49m[39;49m[36m^[[39;49m[K[36m^M[39;49m[K
+    Added the required Interface and the 5 JUnit tests.[36m^[[39;49m[36m^[[36m^[[39;49m[39;49m[m[36m^[[39;49m[36m^M[36m^[[39;49m[39;49m[36m^[[39;49m[K[36m^M[39;49m[K
+[36m^[[39;49m[36m^[[36m^[[39;49m[39;49m[m[36m^[[39;49m[36m^M[36m^[[39;49m[39;49m[36m^[[39;49m[K[36m^M[39;49m[K
+[36m^[[39;49m[36m^[[36m^[[39;49m[39;49m[33mcommit 93a870c3f021847afa07711ad7601665c6e81502[36m^[[39;49m[36m^[[36m^[[39;49m[39;49m[m[36m^[[39;49m[36m^[[36m^[[39;49m[39;49m[33m ([36m^[[39;49m[36m^[[36m^[[39;49m[39;49m[m[36m^[[39;49m[36m^[[36m^[[39;49m[39;49m[1;31morigin/mai\
+[A
+n[36m^[[39;49m[36m^[[36m^[[39;49m[39;49m[m[36m^[[39;49m[36m^[[36m^[[39;49m[39;49m[33m, [36m^[[39;49m[36m^[[36m^[[39;49m[39;49m[m[36m^[[39;49m[36m^[[36m^[[39;49m[39;49m[1;31morigin/HEAD[36m^[[39;49m[36m^[[36m^[[39;49m[39;49m[m[36m^[[39;49m[36m^[[36m^[[39;49m[39;49m[33m, [36m^[[39;49m[36m^[[36m^[[39;49m[39;49m[m[36m^[[39;49m[36\
+[A
+m^[[36m^[[39;49m[39;49m[1;32mmain[36m^[[39;49m[36m^[[36m^[[39;49m[39;49m[m[36m^[[39;49m[36m^[[36m^[[39;49m[39;49m[33m)\[36m^M[39;49m[K
+[36m^[[39;49m[A[K
+[36m^[[39;49m[36m^[[36m^[[39;49m[39;49m[m[36m^[[39;49m[36m^[[36m^[[39;49m[39;49m[m[36m^[[39;49m[36m^M[36m^[[39;49m[39;49m[36m^[[39;49m[K[36m^M[39;49m[K
+Author: Florian Heimerl <heimerl@cs.wisc.edu>[36m^[[39;49m[36m^[[36m^[[39;49m[39;49m[m[36m^[[39;49m[36m^M[36m^[[39;49m[39;49m[36m^[[39;49m[K[36m^M[39;49m[K
+Date:   Sun Oct 1 23:29:03 2023 -0500[36m^[[39;49m[36m^[[36m^[[39;49m[39;49m[m[36m^[[39;49m[36m^M[36m^[[39;49m[39;49m[36m^[[39;49m[K[36m^M[39;49m[K
+[36m^[[39;49m[36m^[[36m^[[39;49m[39;49m[m[36m^[[39;49m[36m^M[36m^[[39;49m[39;49m[36m^[[39;49m[K[36m^M[39;49m[K
+    adding starter files for car organizer[36m^[[39;49m[36m^[[36m^[[39;49m[39;49m[m[36m^[[39;49m[36m^M[36m^[[39;49m[39;49m[36m^[[39;49m[K[36m^M[39;49m[K
+[36m^[[39;49m[36m^M^[[36m^[[39;49m[39;49m[K[36m^[[39;49m[36m^[[36m^[[39;49m[39;49m[?1l[36m^[[39;49m[36m^[[36m^[[39;49m[39;49m>[36m^[[39;49m[36m^[[36m^[[39;49m[39;49m[?2004h[36m^[[39;49m[36m^[[36m^[[39;49m[39;49m]0;shigeorgew@my-cs400-vm: ~/Week06/p1[36m^[[39;49m[36m^G^[[36m^[[39;49m[39;49m[01;\
+[A
+32mshigeorgew@my-cs400-vm[36m^[[39;49m[36m^[[36m^[[39;49m[39;49m[00m:[36m^[[39;49m[36m^[[36m^[[39;49m[39;49m[01;34m~/Week06/p1[36m^[[39;49m[36m^[[36m^[[39;49m[39;49m[00m$ git[36m^[[39;49m[36m^M[36m^[[39;49m[39;49m[36m^[[39;49m[K[36m^M[39;49m[K
+[36m^[[39;49m[36m^[[36m^[[39;49m[39;49m[?2004l[36m^[[39;49m[36m^M[36m^[[39;49m[39;49musage: git [--version] [--help] [-C <path>] [-c <name>=<value>][36m^[[39;49m[36m^M[36m^[[39;49m[39;49m[36m^[[39;49m[K[36m^M[39;49m[K
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path][36m^[[39;49m[36m^M[36m^[[39;49m[39;49m[36m^[[39;49m[K[36m^M[39;49m[K
+           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare][36m^[[39;49m[36m^M[36m^[[39;49m[39;49m[36m^[[39;49m[K[36m^M[39;49m[K
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>][36m^[[39;49m[36m^M[36m^[[39;49m[39;49m[36m^[[39;49m[K[36m^M[39;49m[K
+           [--super-prefix=<path>] [--config-env=<name>=<envvar>][36m^[[39;49m[36m^M[36m^[[39;49m[39;49m[36m^[[39;49m[K[36m^M[39;49m[K
+           <command> [<args>][36m^[[39;49m[36m^M[36m^[[39;49m[39;49m[36m^[[39;49m[K[36m^M[39;49m[K
+[36m^[[39;49m[36m^M[36m^[[39;49m[39;49m[36m^[[39;49m[K[36m^M[39;49m[K
+These are common Git commands used in various situations:[36m^[[39;49m[36m^M[36m^[[39;49m[39;49m[36m^[[39;49m[K[36m^M[39;49m[K
+[36m^[[39;49m[36m^M[36m^[[39;49m[39;49m[36m^[[39;49m[K[36m^M[39;49m[K
+start a working area (see also: git help tutorial)[36m^[[39;49m[36m^M[36m^[[39;49m[39;49m[36m^[[39;49m[K[36m^M[39;49m[K
+   clone     Clone a repository into a new directory[36m^[[39;49m[36m^M[36m^[[39;49m[39;49m[36m^[[39;49m[K[36m^M[39;49m[K
+   init      Create an empty Git repository or reinitialize an existing one[36m^[[39;49m[36m^M[36m^[[39;49m[39;49m[36m^[[39;49m[K[36m^M[39;49m[K
+[36m^[[39;
